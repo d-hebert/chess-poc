@@ -21,6 +21,9 @@ const DEFAULT_STATE = {
         classical: {
             rating: 3456,
         },
+        rapid: {
+            rating: 9999,
+        },
     },
     count: {
         all: 83438,
@@ -33,7 +36,7 @@ const DEFAULT_STATUS = {
     playing: false,
 };
 
-const DEFAULT_CATS = ['bullet', 'blitz', 'classical'];
+const DEFAULT_CATS = ['bullet', 'blitz', 'classical', 'rapid'];
 
 export const Card = () => {
     const { username } = useParams();
