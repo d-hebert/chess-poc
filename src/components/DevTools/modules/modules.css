@@ -1,0 +1,58 @@
+.drawer {
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    background-color: white;
+    transform: translate(0%, 0);
+    animation-delay: 0s;
+    animation-play-state: running;
+    animation-iteration-count: 1;
+    animation-duration: 0.5s;
+    animation-name: supportanimation;
+}
+
+.modal-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 7;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+@keyframes supportanimation {
+    from {
+        transform: translate(-100%, 0);
+        opacity: 0;
+    }
+
+    to {
+        transform: translate(0%, 0);
+        opacity: 1;
+    }
+}
+
+ul {
+    list-style: none;
+    padding-left: 16px;
+}
+
+li {
+    margin: 12px 0;
+}
+
+.devtools-link {
+    text-decoration: none;
+    color: #333;
+}
+
+.active {
+    text-decoration: underline;
+    color:blue;
+    font-weight: bold;
+}

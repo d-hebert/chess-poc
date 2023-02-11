@@ -1,0 +1,16 @@
+.devtools-icon {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    color: #444444;
+    cursor: pointer;
+    z-index: 5;
+}
+
+.devtools-icon:hover {
+    color: #333333;
+}
+
+.devtools-icon:active {
+    color: #111111;
+}

@@ -1,0 +1,128 @@
+.profile-container {
+    width: 500px;
+    height: 200px;
+    margin: 100px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 200px auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.icon-container {
+    /* border: 2px solid #333; */
+    width: 200px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.icon {
+    font-size: 120px;
+}
+
+.details-container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid #333; */
+    width: 290px;
+    padding: 12px;
+}
+
+.details-headline {
+    display: flex;
+    height: 50px;
+    padding: 0 12px;
+    align-items: center;
+    /* border: 2px solid #333; */
+}
+
+.headline-title {
+    font-size: 1.5rem;
+    margin-right: 12px;
+    color: #C58940;
+    font-weight: bold;
+}
+
+.headline-username {
+    font-size: 1.25rem;
+    color: #567189;
+    font-weight: 500;
+}
+
+.ratings-container {
+    margin-top: 8px;
+    padding-left: 12px;
+    /* border: 2px solid #333; */
+}
+
+.ratings-entry {
+    margin: .5rem 0;
+}
+
+.ratings-entry-type {
+    margin-right: 6px;
+    font-size: 85%;
+    font-weight: bold;
+    color: #7B8FA1;
+}
+
+.ratings-entry-value {
+    font-size: 90%;
+    color: #333;
+}
+
+.games-count-title {
+    margin-right: 6px;
+    font-size: 75%;
+    font-weight: 500;
+    color: #7B8FA1;
+}
+
+.games-count-value {
+    font-size: 80%;
+}
+
+.time-since {
+    margin-top: 20px;
+    font-size: 70%; 
+    color: #CFB997;
+    font-weight: bold;
+}
+
+.status-container {
+    height: 30px;
+    width: 100%;
+    padding-left: 20px;
+}
+
+.status {
+    font-size: 70%;
+}
+
+.status>span {
+    display: flex;
+    height: 16px;
+    align-items: center;
+    font-weight: 500;
+}
+
+.Online {
+    color: #5AA469;
+}
+
+.Offline {
+    color: #52575D
+}
+
+.now-playing {
+    color: #B73E3E;
+}
+
+.status>span>svg {
+    margin-right: 0.5em;
+    padding-top: 2px;
+}
